@@ -1,0 +1,134 @@
+[
+  {
+    "_id": 1,
+    "player-img": "https://i.ibb.co.com/wFNRhk2t/sakib.jpg",
+    "player-name": "Shakib Al Hasan",
+    "player-country": "Bangladesh",
+    "playing-role": "All-Rounder",
+    "rating": "5/5",
+    "bating-style": "Left-Handed Bat",
+    "balling-style": "Slow Left-Arm Orthodox",
+    "price": "6000000"
+  },
+  {
+    "_id": 2,
+    "player-img": "https://i.ibb.co.com/ccXW1zw2/tamim.webp",
+    "player-name": "Tamim Iqbal",
+    "player-country": "Bangladesh",
+    "playing-role": "Batter",
+    "rating": "4.5/5",
+    "bating-style": "Left-Handed Bat",
+    "balling-style": "Right-Arm Off-Break",
+    "price": "6000000"
+  },
+  {
+    "_id": 3,
+    "player-img": "https://i.ibb.co.com/B2HZPJJT/taskin.jpg",
+    "player-name": "Taskin Ahmed",
+    "player-country": "Bangladesh",
+    "playing-role": "Bowler",
+    "rating": "5/5",
+    "bating-style": "Left-Handed Bat",
+    "balling-style": "Right-Arm Fast",
+    "price": "6000000"
+  },
+  {
+    "_id": 4,
+    "player-img": "https://i.ibb.co.com/LhJV5yF6/Andre.jpg",
+    "player-name": "Andre Russell",
+    "player-country": "West Indies",
+    "playing-role": "All-Rounder",
+    "rating": "4.5/5",
+    "bating-style": "Right-Handed Bat",
+    "balling-style": "Right-Arm Fast",
+    "price": "80000"
+  },
+  {
+    "_id": 5,
+    "player-img": "https://i.ibb.co.com/5g91TPDf/Dawid.jpg",
+    "player-name": "Dawid Malan",
+    "player-country": "England",
+    "playing-role": "Batter",
+    "rating": "4/5",
+    "bating-style": "Left-Handed Bat",
+    "balling-style": "Leg Break",
+    "price": "70000"
+  },
+  {
+    "_id": 6,
+    "player-img": "https://i.ibb.co.com/G3PrW1tG/Mehidy.jpg",
+    "player-name": "Mehidy Hasan Miraz",
+    "player-country": "Bangladesh",
+    "playing-role": "All-Rounder",
+    "rating": "5/5",
+    "bating-style": "Right-Handed Bat",
+    "balling-style": "Right-Arm Off-Break",
+    "price": "6000000"
+  },
+  {
+    "_id": 7,
+    "player-img": "https://i.ibb.co.com/ZRbjKbs8/Khushdil.jpg",
+    "player-name": "Khushdil Shah",
+    "player-country": "Pakistan",
+    "playing-role": "All-Rounder",
+    "rating": "3.5/5",
+    "bating-style": "Left-Handed Bat",
+    "balling-style": "Slow Left-Arm Orthodox",
+    "price": "30000"
+  },
+  {
+    "_id": 8,
+    "player-img": "https://i.ibb.co.com/0pvC9KvB/Litton.jpg",
+    "player-name": "Litton Das",
+    "player-country": "Bangladesh",
+    "playing-role": "Wicketkeeper-Batter",
+    "rating": "4.5/5",
+    "bating-style": "Right-Handed Bat",
+    "balling-style": "Unknown",
+    "price": "6000000"
+  },
+  {
+    "_id": 9,
+    "player-img": "https://i.ibb.co.com/nqqZqNXD/Faheem.jpg",
+    "player-name": "Faheem Ashraf",
+    "player-country": "Pakistan",
+    "playing-role": "All-Rounder",
+    "rating": "4/5",
+    "bating-style": "Left-Handed Bat",
+    "balling-style": "Left-Arm Fast-Medium",
+    "price": "50000"
+  },
+  {
+    "_id": 10,
+    "player-img": "https://i.ibb.co.com/nN2xZVDV/Tanzid.jpg",
+    "player-name": "Tanzid Hasan Tamim",
+    "player-country": "Bangladesh",
+    "playing-role": "Batter",
+    "rating": "4/5",
+    "bating-style": "Left-Handed Bat",
+    "balling-style": "Unknown",
+    "price": "4000000"
+  },
+  {
+    "_id": 11,
+    "player-img": "https://i.ibb.co.com/WNY7PvLY/Khalid.jpg",
+    "player-name": "Khalid Ahmed",
+    "player-country": "Bangladesh",
+    "playing-role": "Bowler",
+    "rating": "3.5/5",
+    "bating-style": "Right-Handed Bat",
+    "balling-style": "Right-Arm Fast-Medium",
+    "price": "2500000"
+  },
+  {
+    "_id": 12,
+    "player-img": "https://i.ibb.co.com/B5rtJXWJ/Shamim.jpg",
+    "player-name": "Shamim Hossain",
+    "player-country": "Bangladesh",
+    "playing-role": "Batter",
+    "rating": "3/5",
+    "bating-style": "Left-Handed Bat",
+    "balling-style": "Right-Arm Off-Break",
+    "price": "2000000"
+  }
+]
