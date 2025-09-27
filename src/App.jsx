@@ -38,12 +38,12 @@ function App() {
         <Header/>
 
         <div className="flex justify-between items-center px-3 mt-5">
-          <h1 className="font-bold text-2xl">{toggle === true ? "Available Players" : `Selected Players (${purchasedPlayers.length}/6)`}</h1>
+          <h1 className="font-bold text-[1rem] lg:text-2xl">{toggle === true ? "Available Players" : `Selected Players (${purchasedPlayers.length}/6)`}</h1>
 
           <div className="">
-              <button onClick={()=> setToggle(true)}  className={`cursor-pointer py-3 px-4 border-1 border-gray-400 rounded-l-lg border-r-0 text-black ${toggle === true ? "bg-[#E7FF29]": "text-black"}`}>Available</button>
+              <button onClick={()=> setToggle(true)}  className={`cursor-pointer py-3 px-4 border-1 border-gray-400 rounded-l-lg border-r-0 text-black text-[0.9rem] lg:text-[1.2rem] ${toggle === true ? "bg-[#E7FF29]": "text-black"}`}>Available</button>
 
-              <button onClick={()=> setToggle(false)} className={`cursor-pointer py-3 px-4 border-1 border-gray-400 rounded-r-lg border-l-0 text-black ${toggle === false ? "bg-[#E7FF29]": "text-black"}`}>
+              <button onClick={()=> setToggle(false)} className={`cursor-pointer py-3 px-4 border-1 border-gray-400 rounded-r-lg border-l-0 text-black text-[0.9rem] lg:text-[1.2rem] ${toggle === false ? "bg-[#E7FF29]": "text-black"}`}>
               Selected <span>({purchasedPlayers.length})</span>
               </button>
           </div>
