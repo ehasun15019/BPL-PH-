@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import SelectedPlayer from "./Components/SelectedPlayer/SelectedPlayer";
 import { ToastContainer } from 'react-toastify';
 import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer";
 
 const fetchPlayers = async () => {
   const res = await fetch('/public.json');
@@ -40,9 +41,9 @@ function App() {
           <h1 className="font-bold text-2xl">{toggle === true ? "Available Players" : `Selected Players (${purchasedPlayers.length}/6)`}</h1>
 
           <div className="">
-              <button onClick={()=> setToggle(true)}  className={`cursor-pointer py-3 px-4 border-1 border-gray-400 rounded-l-lg border-r-0 text-black ${toggle === true ? "bg-[#E7FF29]": "text-white"}`}>Available</button>
+              <button onClick={()=> setToggle(true)}  className={`cursor-pointer py-3 px-4 border-1 border-gray-400 rounded-l-lg border-r-0 text-black ${toggle === true ? "bg-[#E7FF29]": "text-black"}`}>Available</button>
 
-              <button onClick={()=> setToggle(false)} className={`cursor-pointer py-3 px-4 border-1 border-gray-400 rounded-r-lg border-l-0 text-black ${toggle === false ? "bg-[#E7FF29]": "text-white"}`}>
+              <button onClick={()=> setToggle(false)} className={`cursor-pointer py-3 px-4 border-1 border-gray-400 rounded-r-lg border-l-0 text-black ${toggle === false ? "bg-[#E7FF29]": "text-black"}`}>
               Selected <span>({purchasedPlayers.length})</span>
               </button>
           </div>
@@ -56,7 +57,8 @@ function App() {
             </Suspense> : <SelectedPlayer purchasedPlayers={purchasedPlayers} setPurchasedPlayers={setPurchasedPlayers} removePlayer={deletePlayer} />
         }
       </div>
-
+      
+      <Footer/>
       <ToastContainer />
     </>
   );

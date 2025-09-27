@@ -12,7 +12,7 @@ const SelectedPlayer = ({ purchasedPlayers, removePlayer }) => {
       {purchasedPlayers.map((player, idx) => (
         <div key={idx} className='flex justify-between items-center border-2 border-gray-300 rounded-lg px-5 my-3 mx-3'>
           <div className='card-section'>
-            <div className="card card-side shadow-sm">
+            <div className="card card-side">
               <figure>
                 <img
                   src={player["player-img"]}

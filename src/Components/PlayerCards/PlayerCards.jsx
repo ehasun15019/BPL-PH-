@@ -21,7 +21,7 @@ const PlayerCards = ({player, setBalance, purchasedPlayers, setPurchasedPlayers,
   };
 
   return (
-    <div key={player._id} className="card bg-zinc-700 shadow-lg p-3">
+    <div key={player._id} className="card shadow-lg p-3">
       <figure>
         <img
           src={player["player-img"]}
@@ -42,7 +42,7 @@ const PlayerCards = ({player, setBalance, purchasedPlayers, setPurchasedPlayers,
             {player["player-country"]}
           </p>
 
-          <button className="bg-zinc-800 py-2 px-3 rounded-md text-[0.9rem]">
+          <button className="bg-gray-300 py-2 px-3 rounded-md text-[0.9rem]">
             {player["playing-role"]}
           </button>
         </div>

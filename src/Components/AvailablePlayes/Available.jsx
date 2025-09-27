@@ -7,7 +7,7 @@ const Available = ({ playersData, setBalance, purchasedPlayers, setPurchasedPlay
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-8 justify-items-center px-3'>
       {data.map((player) => (
-  <PlayerCards purchasedPlayers={purchasedPlayers} setPurchasedPlayers={setPurchasedPlayers} setBalance={setBalance} player={player} balance={balance}></PlayerCards>
+         <PlayerCards purchasedPlayers={purchasedPlayers} setPurchasedPlayers={setPurchasedPlayers} setBalance={setBalance} player={player} balance={balance}></PlayerCards>
       ))}
     </div>
   )
